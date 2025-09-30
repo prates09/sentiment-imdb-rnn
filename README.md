@@ -11,13 +11,7 @@ The Jupyter notebook automatically downloads the dataset, trains the three model
 - **IMDB 50k Movie Reviews**  
   • Official site: https://ai.stanford.edu/~amaas/data/sentiment/  
   • Hugging Face dataset card: https://huggingface.co/datasets/imdb  
-
-The notebook loads the dataset directly:
-```python
-from datasets import load_dataset
-imdb = load_dataset("imdb")
-
-## Preprocessing
+  ## Preprocessing
 
 - Tokenization: Splitting text into words.
 - Vocabulary: Limited to the top 10,000 most frequent words.
@@ -72,4 +66,11 @@ cd IMDB-Sentiment-RNN
 pip install -r requirements.txt**
 
 
+
+
+
+The notebook loads the dataset directly:
+```python
+from datasets import load_dataset
+imdb = load_dataset("imdb")
 
