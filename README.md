@@ -59,11 +59,11 @@ All models trained with Adam optimizer (lr=0.001), binary cross-entropy loss, ba
 
 ## How to Run
 
-**Clone this repo and install dependencies:
+Clone this repo and install dependencies:
 ```bash
 git clone https://github.com/yourusername/IMDB-Sentiment-RNN.git
 cd IMDB-Sentiment-RNN
-pip install -r requirements.txt**
+pip install -r requirements.txt
 
 
 
